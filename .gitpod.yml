@@ -1,3 +1,7 @@
+tasks:
+  - name: getting-started
+    command: docker run -d -p 80:80 docker/getting-started
+
 ports:
   - port: 80
     onOpen: ignore
