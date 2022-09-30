@@ -4,4 +4,4 @@ tasks:
 
 ports:
   - port: 80
-    onOpen: ignore
+    onOpen: open-browser
